@@ -5,4 +5,5 @@ use App\Http\Controllers\Api\LoginController;
 
 Route::prefix('auth')->group(function() {
     Route::post('/login', [LoginController::class, 'login']);
+    Route::post('/logout', [LoginController::class, 'logout']);
 });

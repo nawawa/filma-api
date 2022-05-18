@@ -18,6 +18,7 @@ return [
     'paths' => [
         'api/*', 
         'auth/login',
+        'auth/logout',
         'sanctum/csrf-cookie',
     ],
 
@@ -36,5 +37,3 @@ return [
     'supports_credentials' => true,
 
 ];
-
-// Access-Control-Allow-Origin
