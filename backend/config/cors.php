@@ -24,7 +24,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['http://0.0.0.0:4001'],
+    'allowed_origins' => [env('FRONT_ORIGIN')],
 
     'allowed_origins_patterns' => [],
 
